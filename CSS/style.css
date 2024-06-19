@@ -1,0 +1,915 @@
+@font-face {
+   font-family: 'Kanit';
+   src: url('Font/Kanit-Regular.eot');
+   src: url('Font/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/Kanit-Regular.woff2') format('woff2'),
+       url('Font/Kanit-Regular.woff') format('woff'),
+       url('Font/Kanit-Regular.ttf') format('truetype'),
+       url('Font/Kanit-Regular.svg#Kanit-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Abel';
+   src: url('Font/Abel-Regular.eot');
+   src: url('Font/Abel-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/Abel-Regular.woff2') format('woff2'),
+       url('Font/Abel-Regular.woff') format('woff'),
+       url('Font/Abel-Regular.ttf') format('truetype'),
+       url('Font/Abel-Regular.svg#Abel-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Teko';
+   src: url('Font/Teko-Light.eot');
+   src: url('Font/Teko-Light.eot?#iefix') format('embedded-opentype'),
+       url('Font/Teko-Light.woff2') format('woff2'),
+       url('Font/Teko-Light.woff') format('woff'),
+       url('Font/Teko-Light.ttf') format('truetype'),
+       url('Font/Teko-Light.svg#Teko-Light') format('svg');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Exo 2';
+   src: url('Font/Exo2-Regular.eot');
+   src: url('Font/Exo2-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/Exo2-Regular.woff2') format('woff2'),
+       url('Font/Exo2-Regular.woff') format('woff'),
+       url('Font/Exo2-Regular.ttf') format('truetype'),
+       url('Font/Exo2-Regular.svg#Exo2-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Changa';
+   src: url('Font/Changa-Regular.eot');
+   src: url('Font/Changa-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/Changa-Regular.woff2') format('woff2'),
+       url('Font/Changa-Regular.woff') format('woff'),
+       url('Font/Changa-Regular.ttf') format('truetype'),
+       url('Font/Changa-Regular.svg#Changa-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+@font-face {
+   font-family: 'Concert One';
+   src: url('Font/ConcertOne-Regular.eot');
+   src: url('Font/ConcertOne-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/ConcertOne-Regular.woff2') format('woff2'),
+       url('Font/ConcertOne-Regular.woff') format('woff'),
+       url('Font/ConcertOne-Regular.ttf') format('truetype'),
+       url('Font/ConcertOne-Regular.svg#ConcertOne-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Bebas Neue';
+   src: url('Font/BebasNeue-Regular.eot');
+   src: url('Font/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Font/BebasNeue-Regular.woff2') format('woff2'),
+       url('Font/BebasNeue-Regular.woff') format('woff'),
+       url('Font/BebasNeue-Regular.ttf') format('truetype'),
+       url('Font/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aldrich';
+  src: url('Font/Aldrich-Regular.eot');
+  src: url('Font/Aldrich-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Font/Aldrich-Regular.woff2') format('woff2'),
+      url('Font/Aldrich-Regular.woff') format('woff'),
+      url('Font/Aldrich-Regular.ttf') format('truetype'),
+      url('Font/Aldrich-Regular.svg#Aldrich-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url('Font/Play-Regular.eot');
+  src: url('Font/Play-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Font/Play-Regular.woff2') format('woff2'),
+      url('Font/Play-Regular.woff') format('woff'),
+      url('Font/Play-Regular.ttf') format('truetype'),
+      url('Font/Play-Regular.svg#Play-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quantico';
+  src: url('Font/Quantico-Regular.eot');
+  src: url('Font/Quantico-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Font/Quantico-Regular.woff2') format('woff2'),
+      url('Font/Quantico-Regular.woff') format('woff'),
+      url('Font/Quantico-Regular.ttf') format('truetype'),
+      url('Font/Quantico-Regular.svg#Quantico-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Signika Negative';
+  src: url('Font/SignikaNegative-Light.eot');
+  src: url('Font/SignikaNegative-Light.eot?#iefix') format('embedded-opentype'),
+      url('Font/SignikaNegative-Light.woff2') format('woff2'),
+      url('Font/SignikaNegative-Light.woff') format('woff'),
+      url('Font/SignikaNegative-Light.ttf') format('truetype'),
+      url('Font/SignikaNegative-Light.svg#SignikaNegative-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sriracha';
+  src: url('Font/Sriracha-Regular.eot');
+  src: url('Font/Sriracha-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Font/Sriracha-Regular.woff2') format('woff2'),
+      url('Font/Sriracha-Regular.woff') format('woff'),
+      url('Font/Sriracha-Regular.ttf') format('truetype'),
+      url('Font/Sriracha-Regular.svg#Sriracha-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('Font/YanoneKaffeesatz-ExtraLight.eot');
+  src: url('Font/YanoneKaffeesatz-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('Font/YanoneKaffeesatz-ExtraLight.woff2') format('woff2'),
+      url('Font/YanoneKaffeesatz-ExtraLight.woff') format('woff'),
+      url('Font/YanoneKaffeesatz-ExtraLight.ttf') format('truetype'),
+      url('Font/YanoneKaffeesatz-ExtraLight.svg#YanoneKaffeesatz-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+* { 
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+ .container{
+    background-color: #fff;
+    margin:0;
+    padding:0;
+    width: 1480px;
+ }
+
+ .header{
+    height: 30px;
+    width:100%;
+    background-color: #094785;
+    padding: 20px;
+ }
+
+ .header ul{
+   list-style: none;
+ }
+
+ .header ul li{
+   display: inline;
+   margin-top: 20px;
+   margin-left: 5px;
+   padding-left: 90px;
+ }
+
+ .header ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Bebas Neue';
+ }
+
+ .header ul li a.active{
+   color:#FF7D37;
+ }
+
+ .header ul li i{
+   padding-right: 10px;
+ }
+
+ .body_part{
+    height: 2050px;
+    width:100%;
+    background-color: aqua;
+ }
+
+ .body_part .side_nav{
+    height: 2050px;
+    width:30%;
+    background-color: #032140;
+    float: left;
+ }
+
+ .side_nav .image img{
+   height:230px;
+   width:210px;
+   margin-left: 113px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   border: 4px solid #05547e;
+ }
+
+ .side_nav .image h1{
+   text-align: center;
+   color:#0cadca;
+   font-family: 'Changa';
+ }
+
+ .side_nav .about h2{
+   color:#f08d1c;
+   margin-top: 30px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .about p{
+   color:#f2f2f2;
+   font-size: 20px;
+   margin-top: 15px;
+   margin-left: 40px;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .about p a{
+   text-decoration: none;
+   color:#c635f2;
+ }
+
+ .side_nav .info{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .side_nav .info h2{
+   color:#f08d1c;
+   margin-top: 40px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .info .opt{
+   margin-left: 40px;
+   margin-top: 20px;
+   display: inline-block;
+ }
+
+ .side_nav .info .opt p{
+   color:#f2f2f2;
+   font-size: 20px;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .address{
+   margin-top: 30px;
+ }
+
+ .side_nav .address h2{
+   color:#f08d1c;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .address p{
+   color:#f2f2f2;
+   font-size: 20px;
+   margin-top: 15px;
+   margin-left: 40px;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .contact{
+   margin-top: 30px;
+ }
+
+ .side_nav .contact h2{
+   color:#f08d1c;
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .contact ul{
+   list-style: none;
+ }
+
+ .side_nav .contact ul li{
+   display: flex;
+   margin-top: 15px;
+   margin-left: 40px;
+   color:#f2f2f2;
+   font-size: 20px;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .contact ul li a{
+   color:dodgerblue;
+   font-size: 20px;
+   font-family: 'Abel';
+   font-weight: 600;
+   padding-left: 10px;
+   text-decoration: none;
+ }
+
+ .side_nav .contact ul li a:hover{
+   
+   color:#ab18f5;
+
+ }
+
+ .side_nav .contact ul li i{
+   color:#f2f2f2;
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 15px;
+ }
+
+ .side_nav .social{
+   margin-top: 30px;
+ }
+
+ .side_nav .social h2{
+   color:#f08d1c;
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .social ul{
+   list-style: none;
+ }
+
+ .side_nav .social ul li{
+   display: flex;
+   margin-top: 15px;
+   margin-left: 40px;
+ }
+
+ .side_nav .social ul li a{
+   color:dodgerblue;
+   font-size: 20px;
+   font-family: 'Abel';
+   font-weight: 600;
+   text-decoration: none;
+ }
+
+ .side_nav .social ul li a:hover{
+   color:#ab18f5;
+ }
+
+ .side_nav .social ul li i{
+   color:#f2f2f2;
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 15px;
+ }
+
+ .side_nav .hobby{
+   margin-top: 30px;
+ }
+
+ .side_nav .hobby h2{
+   color:#f08d1c;
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .hobby ul{
+   list-style: none;
+ }
+
+ .side_nav .hobby ul li{
+   display: flex;
+   margin-top: 15px;
+   margin-left: 40px;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .hobby ul li i{
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 15px;
+ }
+
+ .side_nav .down{
+   margin-top: 30px;
+ }
+
+ .side_nav .down h2{
+   color:#f08d1c;
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 30px;
+   font-family: 'Concert One';
+ }
+
+ .side_nav .down p{
+   margin-top: 15px;
+   margin-left: 40px;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Abel';
+   font-weight: 600;
+ }
+
+ .side_nav .down p i{
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 15px;
+ }
+
+ .side_nav .down p a{
+   color:#f2f2f2;
+   font-size: 20px;
+   font-family: 'Abel';
+   font-weight: 600;
+   text-decoration: none;
+ }
+
+ .side_nav .down h3 {
+   margin-top: 30px;
+   margin-left: 140px;
+   width:120px;
+   padding:10px;
+   border:2px solid rgb(56, 205, 228);
+   border-radius: 5px;
+ }
+
+ .side_nav .down h3 a{
+   text-decoration: none;
+   color:lightseagreen
+ }
+
+ .side_nav .down h3 a:hover{
+   color:brown;
+ }
+
+ .side_nav .down h3 a i{
+   padding-right: 10px;
+   color:#f2f2f2;
+ }
+
+ .body_part .main_content{
+    height: 2050px;
+    width: 70%;
+    float:right;
+    background-color: #fff;
+ }
+
+ .main_content .cobject{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .cobject h2{
+    color:#078090;
+    font-size: 27px;
+    font-family: 'Aldrich';
+    font-weight: 600;
+    padding-bottom: 20px;
+ }
+
+ .main_content .cobject h2 i{
+    color:rgb(54, 104, 203);
+    font-size: 24px;
+    padding-right: 10px;
+ }
+
+ .main_content .cobject p{
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Signika Negative';
+    font-weight: 500;
+ }
+
+ .main_content .edu{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .edu h2{
+    color:#078090;
+    font-size: 27px;
+    font-family: 'Aldrich';
+    font-weight: 600;
+    padding-bottom: 10px;
+ }
+
+ .main_content .edu h2 i{
+    color:rgb(54, 104, 203);
+    font-size: 25px;
+    padding-right: 10px;
+ }
+
+ .main_content .edu .varc{
+    margin-left: 80px;
+    margin-bottom: 10px;
+ }
+
+ .main_content .edu .varc h2{
+    color:#094785;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Signika Negative';
+    margin-bottom: -10px;
+ }
+
+ .main_content .edu .varc h2 i{
+    font-size: 22px;
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .edu .varc h3{
+    font-size: 20px;
+    font-family: 'Signika Negative';
+    margin-left: 30px;
+ }
+
+ .main_content .edu .hsc{
+    margin-left: 80px;
+    margin-bottom: 10px;
+ }
+
+ .main_content .edu .hsc h2{
+    color:#094785;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Signika Negative';
+    margin-bottom: -10px;
+ }
+
+ .main_content .edu .hsc h2 i{
+    font-size: 22px;
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .edu .hsc h3{
+    font-size: 20px;
+    font-family: 'Signika Negative';
+    margin-left: 30px;
+ }
+
+
+ .main_content .edu .ssc{
+    margin-left: 80px;
+    margin-bottom: 10px;
+ }
+
+ .main_content .edu .ssc h2{
+    color:#094785;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Signika Negative';
+    margin-bottom: -10px;
+ }
+
+ .main_content .edu .ssc h2 i{
+    font-size: 22px;
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .edu .ssc h3{
+    font-size: 20px;
+    font-family: 'Signika Negative';
+    margin-left: 30px;
+ }
+
+ .main_content .tskill{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .tskill h2{
+    color:#078090;
+    font-size: 27px;
+    font-family: 'Aldrich';
+    font-weight: 600;
+    padding-bottom: 10px; 
+ }
+
+ .main_content .tskill h2 i{
+    color:rgb(54, 104, 203);
+    font-size: 25px;
+    padding-right: 10px;
+ }
+
+ .main_content .tskill ul{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    list-style: none;
+ }
+
+ .main_content .tskill ul li{
+    font-size: 22px;
+    font-family: 'Signika Negative';
+    padding-bottom: 10px;
+    font-weight: 700;
+    color:#094785;
+ }
+
+ .main_content .tskill ul li i{
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .tskill ul li p{
+    font-size: 21px;
+    font-weight: 500;
+    color:black;
+    margin-left: 30px;
+ }
+
+ .main_content .achive{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .achive h2{
+    color:#078090;
+    font-size: 27px;
+    font-family: 'Aldrich';
+    font-weight: 600;
+    padding-bottom: 5px;
+ }
+
+ .main_content .achive h2 i{
+    color:rgb(54, 104, 203);
+    font-size: 25px;
+    padding-right: 10px;
+ }
+
+ .main_content .achive .oj{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .achive .oj h3{
+    font-size: 22px;
+    font-family: 'Signika Negative';
+    margin-left: 20px;
+    font-weight: 700;
+    color:#094785;
+    margin-bottom: 5px;
+ }
+
+ .main_content .achive .oj h3 i{
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .achive .oj ul{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    list-style: none;
+ }
+
+ .main_content .achive .oj ul li{
+    font-size: 21px;
+    font-family: 'Signika Negative';
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+ }
+
+ .main_content .achive .oj ul li i{
+   padding-right: 10px;
+   color: rgb(145, 46, 226);
+ }
+
+ .main_content .achive .oj ul li a{
+    color:dodgerblue;
+    font-size: 20px;
+    font-family: 'Abel';
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+ .main_content .achive .contest{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 20px;
+ }
+
+ .main_content .achive .contest h3{
+    font-size: 22px;
+    font-family: 'Signika Negative';
+    margin-left: 20px;
+    font-weight: 700;
+    color:#094785;
+    margin-bottom: 5px;
+ }
+
+ .main_content .achive .contest h3 i{
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .achive .contest ul{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    list-style: none;
+ }
+
+ .main_content .achive .contest ul li{
+    font-size: 21px;
+    font-family: 'Signika Negative';
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+ }
+
+ .main_content .achive .contest ul li i{
+   padding-right: 10px;
+   color: rgb(145, 46, 226);
+ }
+
+ .main_content .achive .other{
+   margin-top: 5px;
+   margin-left: 60px;
+   margin-right: 20px;
+ }
+
+ .main_content .achive .other h3{
+    font-size: 22px;
+    font-family: 'Signika Negative';
+    margin-left: 20px;
+    font-weight: 700;
+    color:#094785;
+    margin-bottom: 5px;
+ }
+
+ .main_content .achive .other h3 i{
+    padding-right: 10px;
+    color:#06c144;
+ }
+
+ .main_content .achive .other ul{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    list-style: none;
+ }
+
+ .main_content .achive .other ul li{
+    font-size: 21px;
+    font-family: 'Signika Negative';
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+ }
+
+ .main_content .achive .other ul li i{
+   padding-right: 10px;
+   color: rgb(145, 46, 226);
+ }
+
+ .main_content .achive .other ul li p{
+    color:#5a5757;
+    margin-left: 30px;
+ }
+
+
+ .footer{
+    height: 80px;
+    width:1520px;
+    background-color: #848c9d;
+    text-align: center;
+ }
+
+ .footer p{
+    color: #f2f2f2;
+    padding-top: 10px;
+ }
+
+ .footer p a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgba(200, 56, 7, 0.927);
+  
+ }
+
+
+
+ /*Achivement Page CSS*/
+
+.main_content .onj{
+   margin-top: 50px;
+   margin-left: 70px;
+}
+
+.main_content .onj h2{
+   font-size: 25px;
+   font-weight: 700;
+   color:rgb(7, 139, 139);
+   font-family: 'Aldrich';
+   padding-bottom: 15px;
+}
+
+.main_content .onj h3{
+   font-size: 22px;
+   font-weight: 600;
+   color:#cd7707;
+   font-family: 'Kanit';
+   margin-left: 30px;
+   padding-bottom: 10px;
+}
+
+.main_content .onj h3 i{
+   padding-right: 10px;
+}
+
+.main_content .onj p{
+   margin-left: 60px;
+   font-size: 20px;
+   color:darkslateblue;
+   font-family: 'Exo 2';
+   font-weight: 500;
+   padding-bottom: 15px;
+}
+
+.main_content .onj p a{
+   color:rgb(235, 57, 131);
+   text-decoration: none;
+}
+
+.main_content .onj table{
+   margin-left: 60px;
+}
+
+.main_content .onj table tr{
+   padding-bottom: 20px;
+}
+
+.main_content .onj table tr th{
+   padding-right: 30px;
+   padding-bottom: 10px;
+}
+
+.main_content .onj table tr td{
+   padding-right: 30px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+.main_content .onj table tr td a{
+   text-decoration: none;
+}
+
+.main_content .onj table tr td a:hover{
+   color:deeppink;
+}
+
